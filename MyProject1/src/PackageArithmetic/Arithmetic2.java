@@ -1,4 +1,6 @@
 package PackageArithmetic;
+//import  Package1.*;
+import java.util.Scanner;
 
 public class Arithmetic2 {
 	public int multi_sub(int a, int b, int c) {
@@ -29,10 +31,12 @@ public class Arithmetic2 {
 		int x= a/b;
 		System.out.println("This is the final result of (((((10*2)-2)+2)-2)/2) = " +" "+x);
 			//return x;
+		
 		}
 
 	public static void main(String[] args) {
 		
+		//Scanner s= new Scanner(System.in);
 		Arithmetic2 var_val= new Arithmetic2();
 		int first_value= var_val.multi_sub(10,2,2);
 		
