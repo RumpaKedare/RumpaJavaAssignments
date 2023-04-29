@@ -61,6 +61,8 @@ public class Assignment2Scanner {
 		int x7 = s.nextInt();
 		obj.div(y3, x7);
 		
+		System.out.println("Assignment Complete");
+		
 		
 		
 		

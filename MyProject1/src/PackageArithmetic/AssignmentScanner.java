@@ -84,6 +84,7 @@ public class AssignmentScanner {
 		int a4 = s.nextInt();
 		int x4= obj.div(x3, a4);
 		System.out.println(" Result of Fourth Equation Division:  " +"" +x4);
+		System.out.println("Assignment Complete");
 	}
 
 }
